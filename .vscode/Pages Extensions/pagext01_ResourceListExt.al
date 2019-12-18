@@ -9,7 +9,7 @@ pageextension 50102 "CSD ReourceListExt" extends "Resource List"
 
         addafter("Type")
         {
-            field("CSD ResourceType")
+            field("CSD Resource Type"; "CSD Resource Type")
             {
                 ApplicationArea = All;
             }
