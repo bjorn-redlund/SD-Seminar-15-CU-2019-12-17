@@ -48,7 +48,7 @@ table 50133 "CSD Seminar Register"
             var
                 UserMgt: Codeunit "User Management";
             begin
-                UserMgt.LookupUserID("User ID");
+                UserMgt.DisplayUserInformation("User ID");
             end;
         }
 
